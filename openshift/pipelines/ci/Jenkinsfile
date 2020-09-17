@@ -1,0 +1,8 @@
+runCIPipeline(application: "hello-service",
+              devProject: "hello-service-dev",
+              agent: "maven",
+              compileCommands: "mvn clean install -DskipTests",
+              testCommands: "",
+              artifactFile: "./target/hello-service-1.jar",
+              applicationTemplate: "./openshift/template.yaml")
+              

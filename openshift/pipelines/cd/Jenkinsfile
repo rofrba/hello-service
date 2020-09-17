@@ -1,0 +1,10 @@
+runCDPipeline(application: "hello-service",
+              devProject: "hello-service-dev",
+              testProject: "hello-service-test",
+              prodProject: "hello-service-prod",
+              agent: "maven",
+              compileCommands: "mvn clean install -DskipTests",
+              testCommands: "",
+              artifactFile: "./target/hello-service-1.jar",
+              applicationTemplate: "./openshift/template.yaml")
+  
