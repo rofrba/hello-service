@@ -125,9 +125,9 @@ parameters:
   displayName: Image Base Name
   description: Image Base Name
   required: true
-  value: redhat-openjdk18-openshift
+  value: openjdk-8-rhel8
 - name: IMAGE_VERSION
   displayName: Image Base Version
   description: Image Base Version
   required: true
-  value: 1.5
+  value: latest
