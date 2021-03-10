@@ -118,4 +118,4 @@ parameters:
   displayName: Image Base Version
   description: Image Base Version
   required: true
-  value: latest
+  value: '1.2-2'
