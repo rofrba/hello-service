@@ -1,4 +1,4 @@
-runCDPipeline(application: "hello-service",
+runCDPipelineArgo(application: "hello-service",
               devProject: "hello-service-dev",
               testProject: "hello-service-test",
               prodProject: "hello-service-prod",
