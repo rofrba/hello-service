@@ -7,5 +7,5 @@ runCDPipelineArgo(application: "hello-service",
               testCommands: "",
               artifactFile: "./target/hello-service-1.jar",
               applicationTemplate: "./openshift/template.yaml",
-              repo-manifests: "ssh://git@10.10.103.100/manifests/hello-world")
+              repoManifests: "ssh://git@10.10.103.100/manifests/hello-world")
   
