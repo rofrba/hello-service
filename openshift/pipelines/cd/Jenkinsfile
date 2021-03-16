@@ -1,11 +1,10 @@
 runCDPipelineArgo(application: "hello-service",
               devProject: "proyecto-base-dev",
               testProject: "proyecto-base-test",
-              prodProject: "check-conexiones",
+              prodProject: "demo-pipelines",
               agent: "maven",
               compileCommands: "mvn clean install -DskipTests",
               testCommands: "",
               artifactFile: "./target/hello-service-1.jar",
-              applicationTemplate: "./openshift/template.yaml",
-              repoManifests: "ssh://git@10.10.103.100/manifests/hello-world")
+              applicationTemplate: "./openshift/template.yaml")
   
