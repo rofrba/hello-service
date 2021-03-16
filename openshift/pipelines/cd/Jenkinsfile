@@ -1,6 +1,7 @@
 runCDPipelineArgo(application: "hello-service",
               devProject: "proyecto-base-dev",
-              testProject: "proyecto-base-test",
+              qaProject: "proyecto-base-test",
+              uatProject: "proyecto-base-uat",
               prodProject: "check-conexiones",
               agent: "maven",
               compileCommands: "mvn clean install -DskipTests",
