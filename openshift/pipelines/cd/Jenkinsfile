@@ -1,4 +1,4 @@
-runCDPipelineArgo(application: "hello-service",
+runCDPipeline(application: "hello-service",
               devProject: "proyecto-base-dev",
               qaProject: "proyecto-base-test",
               uatProject: "proyecto-base-uat",
@@ -7,6 +7,5 @@ runCDPipelineArgo(application: "hello-service",
               compileCommands: "mvn clean install -DskipTests",
               testCommands: "",
               artifactFile: "./target/hello-service-1.jar",
-              applicationTemplate: "./openshift/template.yaml",
-              repoManifests: "ssh://git@10.10.103.100/manifests/hello-world")
+              applicationTemplate: "./openshift/template.yaml")
   
